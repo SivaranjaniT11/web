@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    z-index: 1;
+    background-color: #37517E;
+    position: fixed;
+    top:0; left:0; right:0;
+    padding:0.4rem 2%;display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: inline-flex;
+}
+nav ul li a{
+    padding:0 1.5rem;
+    font-size: 16px;
+    color: aliceblue;
+}
+.btn1{
+    background-color: transparent; align-items: center;
+    padding:5px 20px; border-radius:10px;
+    border-color: rgb(0, 183, 255);color: aliceblue;
+}
+
+.home .row1{margin: 1%;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+
+.home .row1 .image-container{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.home .row1 .image-container img , .box .row .image-container img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.home .row1 .content{
+    flex:1 1 40rem;
+}
+
+.home .row1 .content h1{
+    font-size: 3rem;
+    color:#fefbfb;
+}
+
+.home .row1 .content h4{
+    font-size: 1.5rem;
+    color:#999;
+    padding:.5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+.home .btn-icon{
+    display: inline-flex;
+}
+.home .btn-icon h5{
+    color: aliceblue;
+
+}
+.box{
+    background:#eee;
+}
+.icons-container{
+    background:#eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icons{
+    padding:.4rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 2rem;
+}
+
+.icons-container .icons img{
+    height:3rem;
+    margin-right:2%;
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    color: #37517E;
+    padding:1rem;
+    margin:2rem 0;    
+}
+.about .row , .box .row{
+    margin:3%;
+    display: flex;
+    align-items: center;
+    gap:2rem;line-height:2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+.bag-position .row{
+    margin:3%;
+    display: flex;
+    align-items: center;
+    gap:2rem;color: aliceblue;font-size: 20px;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .row .image-container , .box .row .image-container{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.about .row .image-container .btn2{
+    padding: 10px 20px;
+    width: 20%;
+    border-radius: 10px;
+}
+.box .class{
+    margin-top:.8rem;
+    padding: 1%;
+}
+.about .row .content , .box .row .content{
+    flex:1 1 40rem;
+}
+
+.service .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.1rem;margin:2%;
+}
+.service .box-container .box{
+    margin:1%;
+    flex:1 1 15rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding:3rem 1rem;
+    position: relative;
+    border:.1rem solid rgba(0,0,0,.1);
+}
+.bag-position{
+    background:linear-gradient(rgba(36, 36, 99, 0.8),rgba(66, 66, 144, 0.8)),url('image/cta-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    
+    
+}
+.portfolio .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;margin:2%;
+}
+.portfolio .box-container .box-1{
+    margin:1%;
+    flex:1 1 13rem;
+    border-radius: .5rem;
+    padding:3rem 1rem;
+    position: relative;
+}
+.portfolio .box-container .box-1 img{
+    margin-top:6%;
+}
+.btn-icon {
+    margin-top: 2%;
+    display: inline-flex;
+}
+.btn-icon .btn1{
+    padding:.5rem;
+    margin-left: 1%;
+}
+.team .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;margin:2%;
+}
+.team .box-container .box{
+    margin:1%;
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    padding:1rem 1rem;
+    position: relative;
+}
+.team .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: .1rem;
+}
+.team .icon i{
+    background-color: rgb(154, 154, 154);
+    width: 35px;height: 35px;
+    font-size: 18px;
+   align-items: center;
+   justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
+
+}
+.team .box-container .box .user img{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.Pricing .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;margin:5%;
+    line-height:2rem;
+}
+.Pricing .box-container .box{
+    border:.1rem solid rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    background-color: #fefbfb;
+    margin:2%;
+    flex:1 1 10rem;
+    border-radius: .5rem;
+    padding:1rem 1rem;
+    position: relative;
+}
+.container-fluid{
+    padding:1rem 1rem ;
+}
+.container-fluid .h2{
+    background-color: #fefbfb;
+}
+.container-fluid .h2 p{
+    margin: 1%;
+}
+.container-fluid h2 {
+    background-color: #fefbfb;
+    padding: 20px;
+}
+
+.contact .row{
+    margin:1%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+.contact .locate .icon1,.contact .locate .icon2,.contact .locate .icon3{
+    display: inline-flex;
+    padding: 20px;
+}
+
+.contact .row .image-container{
+    flex:1 1 40rem;
+    background-color: #eee;
+    position: relative;
+}
+.contact .row .content{
+    background-color: #eee;
+    flex:1 1 40rem;position: relative;
+}
+.contact .d-flex i{
+    background-color: rgb(152, 219, 253);
+    color: rgb(4, 155, 243);
+    font-size: 18px;
+    border-radius: 50%;
+    width: 35px;height: 35px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.contact .content {
+    padding:1rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+    height: 74vh;
+}
+
+.contact .image-container form{
+    padding:1rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .image-container form .box{
+    padding:1rem;
+    font-size: 1rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:1rem 0;
+    width: 100%;
+}
+
+.contact .image-container form textarea{
+    height:12rem;
+    resize: none;
+}
+.join .form-floating input{
+    padding: 20px;border: none;
+    width: 600px;border-radius: 20px;
+}
+.join .form-floating{
+    position: relative;
+}
+.join .form-floating button{
+    position: absolute;
+    left:65%;top:10%;
+    padding: 60px;border-radius: 20px;
+    border: none; color: #eee;
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.footer .box-container .box-2{
+    margin: 2%;
+    line-height: 1.5rem;
+    flex:1 1 15rem;
+}
+.footer .icon i{
+    color: white;
+    background-color:  #209DD8;
+    width: 35px;height: 35px;
+    font-size: 18px;
+   align-items: center;
+   justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
+
+}
